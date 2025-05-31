@@ -7,19 +7,19 @@ import numpy as np
 from PIL import Image
 import plotly.graph_objects as go
 import plotly.express as px
-import datetime
+import *********************
 from fpdf import FPDF
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 import plotly.io as pio
-import os
+import ************************************************
 
 # === Streamlit Layout ===
 st.set_page_config(layout="wide")
 
 # === LOCAL LOGIN SYSTEM ===
 def login():
-    st.sidebar.header("🔐 Login")
+    st.sidebar.header("Login")
     username = st.sidebar.text_input("Username")
     password = st.sidebar.text_input("Password", type="password")
     if st.sidebar.button("Login"):
@@ -36,7 +36,7 @@ if not st.session_state.logged_in:
     st.stop()
 
 # === Sidebar: Logo + Input ===
-logo_path = r"C:\\Users\\Tom Steinar\\Desktop\\koder\\bilder\\FinVisions.png"
+logo_path = r"C:\\Users\**************************************************************************************
 logo = Image.open(logo_path)
 with st.sidebar:
     st.image(logo, width=160)
